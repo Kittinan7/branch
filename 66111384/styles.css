@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #FFDAB9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+.nav-btn {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #8B4513;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background-color: #555;
+}
+
+.profile {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+footer {
+    background-color: #FFDAB9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.activities {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 20px;
+}
+
+
+.activities-pic {
+    width: 300px; 
+    height: auto; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+h2 {
+    margin-top: 20px;
+    color: #ff8da1;
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+body, html {
+    height: 100%; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff8da1; 
+    color: white; 
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-btn {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #ff5c8e;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background-color: #ff8da1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff8da1;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: calc(100vh - 80px);
+    text-align: center;
+}
+
+.activities-pic {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+    color: #555;
+    font-size: 1.5em;
+}
